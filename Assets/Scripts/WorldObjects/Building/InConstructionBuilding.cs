@@ -74,7 +74,11 @@ public class InConstructionBuilding : WorldObject
         isConstruct = true;
         this.enabled = false;
         NavMeshObstacle NMO = this.GetComponent<NavMeshObstacle>();
-        if (NMO) NMO.enabled = true;
+        if (NMO)
+        {
+            NMO.enabled = true;
+            GameObject.FindObjectOfType<NavMeshSurface>().BuildNavMesh();
+        }
     }
     public override void OnDeath()
     {

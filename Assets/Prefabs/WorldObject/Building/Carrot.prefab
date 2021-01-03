@@ -154,7 +154,7 @@ MonoBehaviour:
   cost: 20
   sellValue: 0
   hitPoints: 0
-  maxHitPoints: 0
+  maxHitPoints: 50
   LifeDisplay: {fileID: 6520935604756453213}
   LifeDisplayColoration: {fileID: 8365214080498738540}
   player: {fileID: 0}
@@ -177,7 +177,7 @@ MonoBehaviour:
   cost: 20
   sellValue: 0
   hitPoints: 0
-  maxHitPoints: 0
+  maxHitPoints: 10
   LifeDisplay: {fileID: 6520935604756453213}
   LifeDisplayColoration: {fileID: 8365214080498738540}
   player: {fileID: 0}
@@ -420,6 +420,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 732569848750829133}
     m_Modifications:
+    - target: {fileID: 836770753462820972, guid: 7d2f61a2465ba6b4290395c8b7f5ca0e, type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 836770753462820972, guid: 7d2f61a2465ba6b4290395c8b7f5ca0e, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2453831186616652798, guid: 7d2f61a2465ba6b4290395c8b7f5ca0e, type: 3}
       propertyPath: m_Name
       value: HpBar
@@ -510,6 +518,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7051584400607979403, guid: 7d2f61a2465ba6b4290395c8b7f5ca0e, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051584400607979403, guid: 7d2f61a2465ba6b4290395c8b7f5ca0e, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

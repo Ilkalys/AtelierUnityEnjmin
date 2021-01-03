@@ -17,10 +17,8 @@ public class WorldObject : MonoBehaviour
     protected string[] actions = { };
     protected bool currentlySelected = false;
 
-    protected virtual void Awake()
-    {
-
-    }
+    protected virtual void Awake() { }
+   
 
     protected virtual void Start()
     {
@@ -31,7 +29,6 @@ public class WorldObject : MonoBehaviour
             LifeDisplay.maxValue = maxHitPoints;
             LifeDisplay.value = hitPoints;
         }
-
     }
 
     protected virtual void Update()
@@ -107,6 +104,8 @@ public class WorldObject : MonoBehaviour
         if (LifeDisplay)
         {
             LifeDisplay.gameObject.SetActive(true);
+            LifeDisplay.maxValue = maxHitPoints;
+
             LifeDisplay.value = hitPoints;
 
              if (maxHitPoints / 4 >= hitPoints)

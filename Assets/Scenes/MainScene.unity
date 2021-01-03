@@ -2694,6 +2694,7 @@ MonoBehaviour:
   - 1
   Sand: {fileID: 4305720572304208943, guid: 89c3dbd842d6fc14685ce9bb8a299bc5, type: 3}
   sandRateFrame: {x: 0.3, y: 0.35}
+  freq: 40
   Tree:
   - {fileID: 4305720572304208943, guid: c9b8f62f7623d484aaae0af69aa92d0a, type: 3}
   - {fileID: 4305720572304208943, guid: 7213a107b6da87b49ac7a82e730ddb47, type: 3}
@@ -2701,7 +2702,6 @@ MonoBehaviour:
   TreeSpawningRate: 0.1
   ForestFreq: 40
   TreeFreq: 2
-  freq: 40
   TownsToSpawn: {fileID: 732569848750829135, guid: 5298737945b385b4783483eba4679a96, type: 3}
 --- !u!1 &1604519295
 GameObject:

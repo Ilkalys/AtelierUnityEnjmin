@@ -144,7 +144,7 @@ MonoBehaviour:
   cost: 20
   sellValue: 0
   hitPoints: 0
-  maxHitPoints: 0
+  maxHitPoints: 10
   LifeDisplay: {fileID: 6490270540364849215}
   LifeDisplayColoration: {fileID: 8393059526775706126}
   player: {fileID: 0}
